@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/GaleriaOnline.WebApi/imagens/ffa814ab-71e3-4de1-972f-402d68f0ef32.gun54m6xfe.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\ffa814ab-71e3-4de1-972f-402d68f0ef32.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gun54m6xfe"},{"Name":"integrity","Value":"sha256-\u002BEO8QkntkmdDB\u002B5Ukd2Wf3ZLg/jRGy\u002BgESlNyKr13q0="},{"Name":"label","Value":"_content/GaleriaOnline.WebApi/imagens/ffa814ab-71e3-4de1-972f-402d68f0ef32.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"213014"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002BEO8QkntkmdDB\u002B5Ukd2Wf3ZLg/jRGy\u002BgESlNyKr13q0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Aug 2025 18:44:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GaleriaOnline.WebApi/imagens/ffa814ab-71e3-4de1-972f-402d68f0ef32.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\ffa814ab-71e3-4de1-972f-402d68f0ef32.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BEO8QkntkmdDB\u002B5Ukd2Wf3ZLg/jRGy\u002BgESlNyKr13q0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"213014"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002BEO8QkntkmdDB\u002B5Ukd2Wf3ZLg/jRGy\u002BgESlNyKr13q0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Aug 2025 18:44:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
