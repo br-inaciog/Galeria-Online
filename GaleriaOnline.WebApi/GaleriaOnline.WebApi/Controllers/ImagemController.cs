@@ -101,7 +101,8 @@ namespace GaleriaOnline.WebApi.Controllers
 
             if(imagemAtualizada.Arquivo != null && imagemAtualizada.Arquivo.Length > 0)
             {
-                if (System.IO.File.Exists(caminhoAntigo)) {
+                if (System.IO.File.Exists(caminhoAntigo)) 
+                {
                     System.IO.File.Delete(caminhoAntigo);
                 }
 

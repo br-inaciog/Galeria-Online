@@ -2,7 +2,6 @@ using GaleriaOnline.WebApi.DbContextImagem;
 using GaleriaOnline.WebApi.Interfaces;
 using GaleriaOnline.WebApi.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System.Runtime;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +36,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//A sequencia importa muito!!!!
+app.UseStaticFiles();
+
+app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
 
