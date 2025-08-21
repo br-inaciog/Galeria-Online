@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u6ol4qUa9XzXyA/LXyiHdcojSLIc5OZYlVQ9eoAAjJE=",
+  "Hash": "mcUoJC35FxjJjiMj6tdhHpiftt2v3LqiAWZ9AZN+li8=",
   "Source": "GaleriaOnline.WebApi",
   "BasePath": "_content/GaleriaOnline.WebApi",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\dec8af23-75a8-496f-9e5c-d96b0c21d606.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\55890867873\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\f38cafbc-17e3-4c20-a122-58ad16b05aa7.jpg",
+      "SourceId": "GaleriaOnline.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\55890867873\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\",
+      "BasePath": "_content/GaleriaOnline.WebApi",
+      "RelativePath": "imagens/f38cafbc-17e3-4c20-a122-58ad16b05aa7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hpzkcd3z81",
+      "Integrity": "xcGoVFkSZ3NMsJMUqS2jkLmW5Ta/AHbumsdNsw3E3iE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\f38cafbc-17e3-4c20-a122-58ad16b05aa7.jpg"
     }
   ],
   "Endpoints": [
@@ -62,7 +83,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 11:49:58 GMT"
+          "Value": "Thu, 21 Aug 2025 11:58:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -107,7 +128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 11:49:58 GMT"
+          "Value": "Thu, 21 Aug 2025 11:58:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -118,6 +139,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-nAaJb/NgDDfHiTY9/i7X+tMFb1MXs5mdUsTCXelpU/Y="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/f38cafbc-17e3-4c20-a122-58ad16b05aa7.hpzkcd3z81.jpg",
+      "AssetFile": "C:\\Users\\55890867873\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\f38cafbc-17e3-4c20-a122-58ad16b05aa7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcGoVFkSZ3NMsJMUqS2jkLmW5Ta/AHbumsdNsw3E3iE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 11:59:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hpzkcd3z81"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/f38cafbc-17e3-4c20-a122-58ad16b05aa7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xcGoVFkSZ3NMsJMUqS2jkLmW5Ta/AHbumsdNsw3E3iE="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/f38cafbc-17e3-4c20-a122-58ad16b05aa7.jpg",
+      "AssetFile": "C:\\Users\\55890867873\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\f38cafbc-17e3-4c20-a122-58ad16b05aa7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcGoVFkSZ3NMsJMUqS2jkLmW5Ta/AHbumsdNsw3E3iE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 11:59:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xcGoVFkSZ3NMsJMUqS2jkLmW5Ta/AHbumsdNsw3E3iE="
         }
       ]
     }
