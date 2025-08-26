@@ -1,17 +1,24 @@
 .botao {
-    background-color: #2F4157;
+    background-color: rgba(32, 44, 60, 0.325);
     border: none;
     color: white;
     width: 15%;
     height: 40px;
 
     border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #0f010195;
 
     font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
-@media screen and (max-widht: 765px){
+.botao:hover {
+    transform: scale(0.95);
+    background-color: #0f0101d2;
+}
+
+@media screen and (max-widht: 765px) {
     .botao {
         font-size: 14px;
     }

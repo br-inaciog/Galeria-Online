@@ -2,17 +2,20 @@ import "./Card.css"
 import imgPen from "../../assets/img/pen.svg"
 import imgTrash from "../../assets/img/trash.svg"
 
-export const Card = ({ tituloCard, imagem }) => {
+//Importar o seu SweetAlert
+import Swal from 'sweetalert2';
+import api from "../../Services/services";
+import { use, useEffect, useState } from 'react';
+
+export const Card = ({ tituloCard, imgCard, funcaoEditar, funcaoExcluir }) => {
     return (
         <>
             <div className="cardDaImagem">
                 <p>{tituloCard}</p>
-
-                <img className="imgDoCard" src={imagem} alt="Imagem relacionada ao card." />
-
+                <img className="imgDoCard" src={imgCard} alt="Imagem relacionada ao card." />
                 <div className="icons">
-                    <img src={imgPen} alt="icone de caneta para realizar uma alteração." />
-                    <img src={imgTrash} alt="icone de lixo para realizar a exclusão." />
+                    <img className="iconeEditar" src={imgPen} alt="icone de caneta para realizar uma alteração." onClick={funcaoEditar}/>
+                    <img className="iconeExcluir" src={imgTrash} alt="icone de lixo para realizar a exclusão." onClick={funcaoExcluir}/>
                 </div>
             </div>
         </>

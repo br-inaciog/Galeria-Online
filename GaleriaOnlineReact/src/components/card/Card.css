@@ -1,11 +1,19 @@
 .cardDaImagem {
-    background-color: white;
+    background-color: #0f010195;
     border-radius: 10px;
+    color: #f5f5dc;
     width: 200px;
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
     padding: 20px 0 20px 0;
+    transition: 0.3s ease;
+}
+
+.cardDaImagem:hover {
+    transform: scale(0.95);
+        background-color: #0f0101d2;
 }
 
 .icons {
@@ -15,7 +23,23 @@
     gap: 20px;
 }
 
+.iconeEditar,
+.iconeExcluir {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.iconeExcluir:hover {
+    transform: scale(1.1);
+}
+
+.iconeEditar:hover {
+    transform: scale(1.1);
+}
+
 .imgDoCard {
     width: 200px;
     height: 200px;
+
+    /* object-fit: contain; */
 }

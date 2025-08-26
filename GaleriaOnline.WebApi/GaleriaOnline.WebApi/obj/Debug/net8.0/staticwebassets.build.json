@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mcUoJC35FxjJjiMj6tdhHpiftt2v3LqiAWZ9AZN+li8=",
+  "Hash": "FpCwLq4g/4FXPVJf+RyQfk2/xeqay3aJHd9D0lIrqqo=",
   "Source": "GaleriaOnline.WebApi",
   "BasePath": "_content/GaleriaOnline.WebApi",
   "Mode": "Default",
@@ -165,7 +165,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 11:59:15 GMT"
+          "Value": "Thu, 21 Aug 2025 19:50:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -210,7 +210,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 11:59:15 GMT"
+          "Value": "Thu, 21 Aug 2025 19:50:47 GMT"
         },
         {
           "Name": "Cache-Control",
